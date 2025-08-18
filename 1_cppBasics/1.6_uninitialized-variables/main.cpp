@@ -1,0 +1,24 @@
+#include <iostream>
+void doNothing(int &) // Don't worry about what & is for now, we're just using it to trick the compiler into thinking variable x is used
+{
+}
+
+int main0()
+{
+    // define an integer variable named x
+    int x; // this variable is uninitialized
+
+    doNothing(x); // make the compiler think we're assigning a value to this variable
+
+    // print the value of x to the screen (who knows what we'll get, because x is uninitialized)
+    std::cout << x << '\n';
+
+    return 0;
+}
+
+// print how many bytes of memory an int value takes
+int main()
+{
+    std::cout << sizeof(int) << "\n";
+    return 0;
+}

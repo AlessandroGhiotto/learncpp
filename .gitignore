@@ -1,0 +1,6 @@
+_3rd-party/
+
+# Ignore compiled binaries (Linux/macOS)
+*/*/*
+!*/*/*.cpp
+!*/*/*.h
