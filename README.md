@@ -14,4 +14,4 @@ The code is organized by chapters, following the tutorial’s progression.
 
 ## Acknowledgements
 
-Thanks to [LearnCpp.com](https://www.learncpp.com) for providing such a clear and comprehensive resource for learning modern C++.
+Thanks to [LearnCpp.com](https://www.learncpp.com) for providing such a clear and comprehensive resource for learning C++.
