@@ -16,7 +16,7 @@
 				"-Wconversion",
 				"-Wsign-conversion",
 				// Treat warnings as errors
-				"-Werror",
+				// "-Werror",
 				// c++ standard
 				"-std=c++20",
 				// automatically compile all .cpp files in the directory

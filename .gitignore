@@ -4,3 +4,5 @@ _3rd-party/
 */*/*
 !*/*/*.cpp
 !*/*/*.h
+
+notes.txt
