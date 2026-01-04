@@ -1,7 +1,6 @@
 _3rd-party/
 
-# Ignore compiled binaries (Linux/macOS)
-# Ignore typical executable names
+# Ignore compiled binaries "main"
 **/main
 
 notes.txt
